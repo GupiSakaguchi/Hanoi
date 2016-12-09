@@ -1,4 +1,4 @@
-POS = %w(A B C)
+POS = %w(st tm go)
 
 def hanoi(n,start,tmp,goal)
   if n == 1
@@ -10,4 +10,10 @@ def hanoi(n,start,tmp,goal)
   end
 end
 
+hanoi(1,POS[0],POS[1],POS[2])
+puts "--------------------------"
 hanoi(2,POS[0],POS[1],POS[2])
+puts "--------------------------"
+hanoi(3,POS[0],POS[1],POS[2])
+puts "--------------------------"
+hanoi(4,POS[0],POS[1],POS[2])
